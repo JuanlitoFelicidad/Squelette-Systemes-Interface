@@ -1,0 +1,15 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+<main class="container my-5">
+  <h1>Exemple GET / POST</h1>
+  <p>Ce formulaire est un exemple pédagogique à retirer ou adapter.</p>
+  <form action="/exemple" method="POST" class="mb-3">
+    <label for="texte" class="form-label">Valeur</label>
+    <input id="texte" name="texte" class="form-control" maxlength="200" required>
+    <button type="submit" class="btn btn-primary mt-3">Envoyer</button>
+  </form>
+  <% if (resultat !== null) { %>
+  <div class="alert alert-info">Reçu : <%= resultat %></div>
+  <% } %>
+</main>
+<%- include('../partials/footer') %>

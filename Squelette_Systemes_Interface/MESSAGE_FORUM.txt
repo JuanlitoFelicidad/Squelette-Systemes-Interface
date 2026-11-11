@@ -1,0 +1,13 @@
+Sujet : Squelette réutilisable Node.js / Express / EJS — Systèmes d’interface
+
+Salut tout le monde,
+
+J’ai préparé un squelette de projet que les étudiants pourront reprendre pour les prochains laboratoires de Systèmes d’interface. L’objectif est de partir avec une structure claire et fonctionnelle, puis d’ajouter uniquement les éléments demandés dans chaque énoncé, au lieu de reconstruire tous les dossiers à chaque fois.
+
+Le projet contient une base Express/EJS avec les routes, les pages, les partials, les modèles et les ressources publiques. J’ai aussi inclus un exemple de formulaire GET/POST, des pages d’erreur et des guides pour l’installation, l’architecture, l’adaptation et le dépannage. Les options MQTT, Socket.IO et MariaDB sont séparées pour ne pas compliquer les labos qui n’en ont pas besoin.
+
+La structure reprend les principes du tutoriel de Nicolas Géraudie, tout en proposant un projet de départ distinct. J’ai utilisé ChatGPT comme aide pour organiser, documenter et vérifier certains éléments du squelette; ce n’est pas une solution complète aux laboratoires. Chaque étudiant doit adapter le code, comprendre ce qu’il utilise et respecter les consignes du cours.
+
+Pour démarrer : décompresser le dossier, l’ouvrir dans VS Code, faire `npm install`, puis `npm start`. Le fichier README et le dossier `docs` expliquent le reste.
+
+Si vous remarquez un bug ou une amélioration possible, vous pouvez le signaler pour qu’on garde une base utile aux prochaines cohortes. Je peux aussi ajuster le projet selon les commentaires de l’enseignant avant sa diffusion.
